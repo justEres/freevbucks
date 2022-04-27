@@ -1,0 +1,116 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size:auto; 
+    background-color: #cccccc;
+    font-family: Fortnite;
+}
+#username{
+    border-radius: 10px;
+    width: 250px;
+    border-color: black;
+    font-family: Fortnite;
+    font-size: 1cm;
+
+}
+#gotostart{
+    margin-right: 20%;
+}
+#count{
+    border-radius: 10px;
+    width: 250px;
+    border-color: black;
+    font-family: Fortnite;
+    font-size: 1cm;
+}
+#choseamountbuttons{
+   display: grid;
+   justify-items: center; 
+}
+.button{
+    margin-top: 30px;
+    font-family: Fortnite;
+    padding: 15px;
+    font-size: 1cm;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 0px;
+
+}
+.generateButton{
+
+    margin-left: 25%;
+    font-family: Fortnite;
+    padding: 15px;
+    font-size: 1cm;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 0px;
+    justify-items: right;
+}
+#generate2{
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+
+.inputfield{
+    font-size: 1cm;
+    font-variant-position: normal;
+}
+.logo{
+    height: 200px;
+    align-self: center;
+}
+#logo{
+    display: grid;
+    justify-items: center;
+}
+#step1{
+    display: grid;
+    justify-items: center;
+    
+
+}
+#step2{
+    
+    display: none;
+    justify-items: center;
+    
+
+}
+#step3{
+    display: none;
+    justify-items: center;
+}
+#step4{
+    display: none;
+    justify-items: center;
+}
+.box{
+    background-color: white;
+    border-radius: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    margin: 10px;
+    font-size: 1cm;
+}
+@font-face {
+    font-family: Fortnite;
+    src: url(fortnite.otf);
+}
+#littleHeading  > * {
+    display: inline-block;
+}
+#spinning{
+    
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+

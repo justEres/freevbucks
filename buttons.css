@@ -1,0 +1,27 @@
+#SwitchButton{
+    background-image: url(logos/switch.png);
+    background-size: 50px;
+}
+#Ps4Button{
+    background-image: url(logos/ps4.png);
+    background-size: 50px;
+}
+#PcButton{
+    background-image: url(logos/pc.png);
+    background-size: 50px;
+}
+#AndroidButton{
+    background-image: url(logos/android.png);
+    background-size: 50px;
+}
+#XboxButton{
+    background-image: url(logos/Xbox.png);
+    background-size: 50px;
+}
+.platformButton{
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}

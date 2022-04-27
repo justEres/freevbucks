@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    
+</head>
+<body>
+    <script src="buttons.js"></script>
+    <div id="logo">
+        <img src="https://d13pxqgp3ixdbh.cloudfront.net/uploads/15808032536a4de28bda94a288ac994e3f1ebe4ddf.png" class="logo">
+    </div>
+    
+    <div id="step1">
+        <div class="box">
+            <div id="littleHeading">
+                <h1>Vbucks Generator</h1>
+                <img src="vbuck.png" alt="" style="height: 80px;">
+            </div>
+            <div class="inputfield">
+                <label for="username">Username:</label>
+                <input type="text" id="username">
+            </div>
+            <div id="platform">
+                <p>choose platform:</p>
+                <div>
+                    <input class="platformButton" type="button" name="" id="XboxButton">
+                    <input class="platformButton" type="button" name="" id="Ps4Button">
+                    <input class="platformButton" type="button" name="" id="SwitchButton">
+                    <input class="platformButton" type="button" name="" id="AndroidButton">
+                    <input class="platformButton" type="button" name="" id="PcButton">
+
+                </div>
+            </div>
+            <button id="generateButton" class="generateButton" onclick="generateVbucks()">Generate Vbucks</button>
+            
+            
+        </div>
+    </div>
+    <div id="step2">
+        <div class="box"><p>Select amount of Vbucks:</p>
+        <div class="amountselector">
+            <label for="username">Amount:</label>
+                <input type="number" id="count">
+            <img src="vbuck.png" alt="" style="width: 50px;">
+        <div id="choseamountbuttons">
+            <div><button onclick="addAmount(1000)" class="button">1000</button>
+                <button onclick="addAmount(10000)" class="button">10000</button>
+                <button onclick="setAmount(0)" class="button">0</button></div>
+            
+        </div>
+        </div>
+        <button  class="generateButton" id="generate2" onclick="startAnimation()">Generate</button>
+        </div>
+        
+    </div>
+    <div id="step3">
+        <div class="box">
+            <h1 id="words">Connecting to servers</h1>
+            <div style="display: grid; justify-items: center;"></div>
+            <img id="spinning" src="vbuck.png" alt="">
+            <h1 id="percentage" style="display: none;">0%</h1>
+        </div>
+
+    </div>
+    <div id = "step4">
+        <div class="box">
+            <p>Vbucks succsessful generated</p>
+            <p id="endnach"></p>
+            <button onclick="gotostart()" class="generateButton" id="gotostart">
+                Click here to return to start
+            </button>
+        </div>
+    </div>
+</body>
+<div id="nothing" style="display: none;">
+    <img src="https://d13pxqgp3ixdbh.cloudfront.net/uploads/16076175376158ce47ad4e157d9b70e0a768509337.png" style="width: 50px;">
+</div>
+</html>
